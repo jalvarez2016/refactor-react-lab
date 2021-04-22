@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 80%;
+  display: flex;
+  background-color: rgb(253,253,253);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.user-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgb(226,108,98);
+}
+
+.user-info div {
+  color: rgb(253,253,253);
+  margin: 10px 0px;
+}
+
+.lvl, .points {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: rgb(191,91,83);
+}
+
+.user-img {
+  width: 225px;
+  height: 210px;
+  border-radius: 50%;
+}
+
+.user-desc {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-help {
+  text-align: end;
+  height: 50px;
+  padding: 5px 10px;
+}
+
+.user-data {
+  padding: 10px;
+}
+
+.user-name {
+  text-align: center;
+  margin: 20px 0px;
+}
